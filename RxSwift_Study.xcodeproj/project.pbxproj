@@ -36,6 +36,9 @@
 		EDC567B324D6C3FF00BF3899 /* just_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just_Operator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDC567B424D6C62A00BF3899 /* of_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of_Operator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EDC567B524D6C6A900BF3899 /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDC567D924D8185900BF3899 /* filter_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter_Operator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDC567DA24D8192A00BF3899 /* flatMap_Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMap_Operator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EDC567DD24D81E6200BF3899 /* combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +134,38 @@
 		EDC567B224D6C3E600BF3899 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
+				EDC567DE24D8216100BF3899 /* Create_Operators */,
+				EDC567DC24D81E2600BF3899 /* Combining_Operators */,
+				EDC567DB24D81E0800BF3899 /* Filtering_Operators */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		EDC567DB24D81E0800BF3899 /* Filtering_Operators */ = {
+			isa = PBXGroup;
+			children = (
+				EDC567D924D8185900BF3899 /* filter_Operator.playground */,
+				EDC567DA24D8192A00BF3899 /* flatMap_Operator.playground */,
+			);
+			path = Filtering_Operators;
+			sourceTree = "<group>";
+		};
+		EDC567DC24D81E2600BF3899 /* Combining_Operators */ = {
+			isa = PBXGroup;
+			children = (
+				EDC567DD24D81E6200BF3899 /* combineLatest.playground */,
+			);
+			path = Combining_Operators;
+			sourceTree = "<group>";
+		};
+		EDC567DE24D8216100BF3899 /* Create_Operators */ = {
+			isa = PBXGroup;
+			children = (
 				EDC567B324D6C3FF00BF3899 /* just_Operator.playground */,
 				EDC567B424D6C62A00BF3899 /* of_Operator.playground */,
 				EDC567B524D6C6A900BF3899 /* from.playground */,
 			);
-			path = Operators;
+			path = Create_Operators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
